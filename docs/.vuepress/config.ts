@@ -5,6 +5,9 @@ export default defineUserConfig<DefaultThemeOptions>({
     lang: 'ja-JP',
     title: 'Laravelアップデート情報',
     description: 'このサイトはLaravelのCHANGELOG.mdを参考に、追加機能・変更情報をまとめたサイトです',
+    head: [
+        ["link", { rel: "icon", href: "favicon.ico" }]
+    ],
 
     themeConfig: {
         logo: 'images/laravel-logo.png',
