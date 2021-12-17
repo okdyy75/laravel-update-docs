@@ -10,10 +10,17 @@ export default defineUserConfig<DefaultThemeOptions>({
         logo: 'images/laravel-logo.png',
         sidebar: [
             {
-                text: 'Laravelアップデート情報',
-                link: '/'
-            },
-        ]
+                text: 'laravel8',
+                link: '/laravel8',
+                children: [
+                    '/laravel8/v8.0-v8.9/README.md',
+                    '/laravel8/v8.10-v8.19/README.md',
+                    '/laravel8/v8.20-v8.29/README.md',
+                    '/laravel8/v8.30-v8.39/README.md',
+                    '/laravel8/v8.40-v8.49/README.md',
+                ],
+            }
+        ],
     },
     markdown: {
         linkify: true
