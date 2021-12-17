@@ -9,6 +9,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         ["link", { rel: "icon", href: "favicon.ico" }]
     ],
 
+    base: '/',
     themeConfig: {
         logo: 'images/laravel-logo.png',
         sidebar: [
