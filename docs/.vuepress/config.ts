@@ -6,7 +6,18 @@ export default defineUserConfig<DefaultThemeOptions>({
     title: 'Laravelアップデート情報',
     description: 'このサイトはLaravelのCHANGELOGを参考に、追加機能・変更情報をまとめたサイトです',
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        [
+            'script',
+            {
+                'async src': '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+            },
+        ],
+        [
+            'script',
+            {},
+            '(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: "ca-pub-9459277760652211",  enable_page_level_ads: true });',
+        ],
     ],
 
     base: '/',
