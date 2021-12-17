@@ -5,6 +5,10 @@
   "repository": "git@github.com:okdyy75/laravel-update-docs.git",
   "author": "okdyy75 <okdyy75@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.27"
   }
