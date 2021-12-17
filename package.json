@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:okdyy75/laravel-update-docs.git",
   "author": "okdyy75 <okdyy75@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.27"
+  }
 }
