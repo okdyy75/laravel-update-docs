@@ -23,10 +23,18 @@ export default defineUserConfig<DefaultThemeOptions>({
                     '/laravel8/v8.30-v8.39/README.md',
                     '/laravel8/v8.40-v8.49/README.md',
                 ],
-            }
+            },
         ],
     },
     markdown: {
-        linkify: true
-    }
+        linkify: true,
+    },
+    plugins: [
+        [
+            '@vuepress/plugin-google-analytics',
+            {
+                id: 'G-MGZX5B8DP5',
+            },
+        ],
+    ],
 })
