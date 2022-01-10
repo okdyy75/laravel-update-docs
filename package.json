@@ -1,8 +1,8 @@
 {
-  "name": "laravel-update-docs",
+  "name": "laravel-update-info",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:okdyy75/laravel-update-docs.git",
+  "repository": "git@github.com:okdyy75/laravel-update-info.git",
   "author": "okdyy75 <okdyy75@gmail.com>",
   "license": "MIT",
   "scripts": {
