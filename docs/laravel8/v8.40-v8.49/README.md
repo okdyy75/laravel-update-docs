@@ -498,7 +498,7 @@ https://github.com/laravel/framework/pull/37650
 
 https://readouble.com/laravel/8.x/ja/validation.html#rule-current-password
 
-## Paginatorで`tag()`が使えるように
+## Paginatorで`tap()`が使えるように
 - v8.47.0
 - src/Illuminate/Pagination/AbstractCursorPaginator.php
 - src/Illuminate/Pagination/AbstractPaginator.php
