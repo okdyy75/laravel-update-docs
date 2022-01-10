@@ -92,10 +92,7 @@ https://github.com/laravel/framework/pull/34333
 - v8.4.0
 - src/Illuminate/Queue/Console/ClearCommand.php
 
-ジョブ（jobsテーブル）はクリアできるけど、ジョブバッチ（job_batchesテーブル）には残るので注意
-
-v8.21.0からは別コマンドでジョブバッチもクリアできます
-
+ジョブ（jobsテーブル）はクリアできるけど、ジョブバッチ（job_batchesテーブル）、失敗したジョブ（failed_jobsテーブル）には残るので注意
 
 ```bash
 php artisan queue:clear
