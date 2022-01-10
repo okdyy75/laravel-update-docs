@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
     lang: 'ja-JP',
-    title: 'Laravelアップデート情報',
+    title: '細かすぎて伝わらないLaravelアップデート情報局',
     description: 'このサイトはLaravelのCHANGELOGを参考に、追加機能・変更情報をまとめたサイトです',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
